@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlParent"
+    android:background="@drawable/shape_white"
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="45dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivCloseDialog"
+        android:layout_width="21dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_close" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/gotham_medium"
+        android:id="@+id/txtHeading"
+        android:textSize="24sp"
+        android:layout_below="@+id/ivCloseDialog"
+        android:text="Add Mock Assignment"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/darkBlueNew"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:hint="Assignment name"
+        android:focusableInTouchMode="true"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:id="@+id/edtAssignmentName"
+        android:background="@drawable/edt_assignment"
+        android:layout_below="@+id/txtHeading"
+        android:fontFamily="@font/gotham_medium"
+        android:layout_height="50dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/edtAssignmentName"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="@color/gray"
+            android:textSize="30sp"
+            android:background="@null"
+            android:textColor="@color/darkgray"
+            android:maxLength="3"
+            android:id="@+id/edtMarks"
+            android:padding="10dp"
+            android:inputType="number"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="100"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="/"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtTotalMarks"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:maxLength="3"
+            android:textColor="@color/darkgray"
+
+            android:inputType="number"
+            android:textColorHint="@color/gray"
+
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:background="@null"
+            android:fontFamily="@font/gotham_medium"
+            android:hint="100"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:text="Add Mock Assignment"
+        android:id="@+id/btnAddAssignment"
+        android:fontFamily="@font/gotham_medium"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:layout_marginRight="10dp"
+
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_above="@+id/btnAddAssignment"
+
+        android:layout_height="200dp">
+
+        <io.blackbox_vision.wheelview.view.WheelView
+            android:id="@+id/loop_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="40dp"
+            app:canLoop="true"
+            app:centerTextColor="#ff000000"
+            app:drawItemCount="7"
+            app:initPosition="3"
+            app:lineColor="@color/colorPrimary"
+            app:textSize="25sp"
+            app:topBottomTextColor="#ffafafaf"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/cardParent"
+    app:cardBackgroundColor="@color/darkBlueNew"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="4dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/gotham_book"
+            android:text="Breakdown"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:id="@+id/txtBreakDown"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/gotham_book"
+        android:text="Trends"
+        android:layout_margin="5dp"
+            android:padding="2dp"
+        android:textSize="14sp"
+            android:id="@+id/txtTrends"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+
+
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/gotham_book"
+            android:text="Show Impacts"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:id="@+id/txtShowImpact"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content">
+
+
+
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

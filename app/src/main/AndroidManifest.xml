@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.grades">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+        android:name="com.grades.application.AppSettings"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.grades.activities.TrendNewActivity" />
+        <activity android:name="com.grades.activities.DetailsofClass" />
+        <activity android:name="com.grades.activities.SwitchStudentActivity" />
+        <activity android:name="com.grades.TrendsActivity" />
+        <activity android:name="com.grades.activities.ShowImpactActivity" />
+        <activity android:name="com.grades.activities.EditClassesActivity" />
+        <activity android:name="com.grades.activities.BreakDownActivity" />
+        <activity
+            android:name="com.grades.activities.ClassesDetailActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.grades.activities.BaseActivity" />
+        <activity android:name="com.grades.activities.HomeActivity" />
+        <activity android:name="com.grades.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.grades.activities.LoginActivity" />
+        <activity android:name="com.grades.activities.ViewAnimationActivity" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3079053216880734~5549087454" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Grades</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="pickerview_cancel">cancel</string>
+    <string name="pickerview_submit">submit</string>
+    <string name="pickerview_year">y</string>
+    <string name="pickerview_month">m</string>
+    <string name="pickerview_day">day</string>
+    <string name="pickerview_hours">h</string>
+    <string name="pickerview_minutes">m</string>
+    <string name="pickerview_seconds">s</string>
+    <string name="pickerview_ampm"></string>
+
+    <string name="admob_showIntersitial_ad_unit_id">ca-app-pub-3079053216880734/2560812097</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3079053216880734/2560812097</string>
+
+
+</resources>

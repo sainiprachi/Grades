@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/premiumimage"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivCloseDialog"
+        android:layout_width="21dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_close"
+        app:tint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ivCloseDialog"
+        android:layout_gravity="center"
+        android:fontFamily="@font/gotham_bold"
+        android:gravity="center"
+        android:text="Grades"
+        android:id="@+id/txtGrades"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtGrades"
+        android:layout_gravity="center"
+        android:fontFamily="@font/gotham_book"
+        android:gravity="center"
+        android:text="Premium"
+        android:id="@+id/txtPremium"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtPremium"
+        android:layout_gravity="center"
+        android:id="@+id/txtRemove"
+        android:fontFamily="@font/gotham_book"
+        android:gravity="center"
+        android:text="Remove all ads and enjoy Grades\nCompletely ad-free for just $1.99"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtRemove"
+        android:layout_gravity="center"
+        android:id="@+id/txtPurchase"
+        android:fontFamily="@font/gotham_book"
+        android:gravity="center"
+        android:text="If you have already purchased\nPremium,You can restore your purchase"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@drawable/shape_white_premium"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/gotham_medium"
+            android:textAllCaps="false"
+            android:text="Purchase now"
+            android:id="@+id/btnPurchaseNow"
+            android:textColor="@color/darkYellow"
+            android:layout_marginRight="20dp"
+            android:layout_height="45dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@drawable/shape_white_premium"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/gotham_medium"
+
+            android:textAllCaps="false"
+            android:text="Restore Purchase"
+            android:textColor="@color/darkYellow"
+
+            android:layout_marginRight="20dp"
+
+            android:layout_height="45dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@drawable/shape_white_premium"
+            android:layout_marginLeft="20dp"
+            android:textAllCaps="false"
+            android:text="Enter Code"
+            android:fontFamily="@font/gotham_medium"
+
+            android:textColor="@color/darkYellow"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="45dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

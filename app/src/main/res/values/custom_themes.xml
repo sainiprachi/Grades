@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="red">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="myWindowBackground">@color/red</item>
+        <!--<item name="android:background">@color/darkRed</item>-->
+        <item name="android:textColor">@color/white</item>
+
+        <item name="mySecondaryTextColor">@color/red</item>
+    </style>
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="darkRed">
+        <item name="colorPrimary">@color/darkRed</item>
+        <item name="colorPrimaryDark">@color/darkRed</item>
+        <item name="colorAccent">@color/white</item>
+        <!--<item name="android:background">@color/darkRed</item>-->
+
+
+        <item name="mySecondaryTextColor">@color/white</item>
+<!--
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="orange">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <!--<item name="android:background">@color/orange</item>-->
+
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:theme">@style/AppTheme</item>
+    </style>
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="darkOrange">
+        <item name="colorPrimary">@color/darkOrange</item>
+        <item name="colorPrimaryDark">@color/darkOrange</item>
+        <!--<item name="android:background">@color/darkOrange</item>-->
+        <item name="colorAccent">@color/darkOrange</item>
+<!--
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="yellow">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow</item>
+        <!--<item name="android:background">@color/yellow</item>-->
+        <item name="colorAccent">@color/yellow</item>
+        <!--<item name="myWindowBackground">@color/yellow</item>-->
+<!--
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="darkYellow">
+        <item name="colorPrimary">@color/darkYellow</item>
+        <item name="colorPrimaryDark">@color/darkYellow</item>
+        <item name="colorAccent">@color/darkYellow</item>
+        <!--<item name="android:background">@color/darkYellow</item>-->
+
+<!--
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="green">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green</item>
+        <!--<item name="android:background">@color/green</item>-->
+        <item name="colorAccent">@color/green</item>
+<!--
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="lightGreen">
+        <item name="colorPrimary">@color/lightGreen</item>
+        <item name="colorPrimaryDark">@color/lightGreen</item>
+        <item name="colorAccent">@color/lightGreen</item>
+        <!--<item name="android:background">@color/green</item>-->
+<!--
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="darkGreen">
+        <item name="colorPrimary">@color/darkGreen</item>
+        <item name="colorPrimaryDark">@color/darkGreen</item>
+        <item name="colorAccent">@color/darkGreen</item>
+        <!--<item name="android:background">@color/darkGreen</item>-->
+        <item name="myPrimaryTextColor">@color/white</item>
+        <item name="mySecondaryTextColor">@color/white</item>
+<!--
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="newGreen">
+        <item name="colorPrimary">@color/newGreen</item>
+        <item name="colorPrimaryDark">@color/newGreen</item>
+        <item name="colorAccent">@color/newGreen</item>
+        <!--<item name="android:background">@color/newGreen</item>-->
+        <item name="android:theme">@style/AppTheme</item>
+-->
+    </style>
+
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="blue">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+
+        <!--<item name="android:background">@color/blue</item>-->
+        <!--<item name="android:theme">@style/AppTheme</item>-->
+    </style>
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="darkBlueNew">
+        <item name="colorPrimary">@color/darkBlueNew</item>
+        <item name="colorPrimaryDark">@color/darkBlueNew</item>
+        <item name="colorAccent">@color/darkBlueNew</item>
+        <!--<item name="android:background">@color/darkBlueNew</item>-->
+        <!--<item name="android:theme">@style/AppTheme</item>-->
+    </style>
+
+
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="purple">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/purple</item>
+        <item name="colorAccent">@color/purple</item>
+        <!--<item name="android:background">@color/purple</item>-->
+        <!--<item name="android:theme">@style/AppTheme</item>-->
+    </style>
+
+    <style xmlns:android="http://schemas.android.com/apk/res/android" name="darkPurple">
+        <item name="colorPrimary">@color/darkPurple</item>
+        <item name="colorPrimaryDark">@color/darkPurple</item>
+        <item name="colorAccent">@color/darkPurple</item>
+        <item name="myPrimaryTextColor">@color/white</item>
+        <!--<item name="android:background">@color/darkPurple</item>-->
+
+        <!--<item name="android:theme">@style/AppTheme</item>-->
+    </style>
+</resources>

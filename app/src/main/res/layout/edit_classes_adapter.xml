@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/rlParent"
+
+    android:layout_height="45dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Ap Physycology A"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtSubject"
+        android:textColor="@color/darkBlueNew"
+        android:fontFamily="@font/gotham_medium"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/ivHide"
+            android:layout_marginEnd="10dp"
+
+            app:tint="@color/darkgray" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/ic_menu"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            app:tint="@color/darkgray" />
+
+    </LinearLayout>
+
+</RelativeLayout>
